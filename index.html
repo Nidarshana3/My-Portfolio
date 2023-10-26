@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">PORTFOLIO</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+           aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#skills">Skills</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+        </nav>
+
+        <!-- home -->
+        <section id="home">
+            <p class="text-center">I'm a<br>
+                <span>Full Stack Developer</span></p>
+                <!-- <div class="text-down"> -->
+                  <!-- <a href="https://drive.google.com/file/d/1E7fbLhXxWYtBO4W3IaP4YeU2tevK4HAl/view?usp=drivesdk" class="btn">Download CV</a> -->
+                <!-- </div> -->
+        </section>
+
+    <!-- About -->
+     <section id="about">
+        <div class="circle">
+            <img src="./img/nithu.jpg">
+            <div class="content">
+                <h1>About me</h1>
+                <p>Hello! I'm Nidarshana Thiyagananthan,a dedicated full-stack developer with a passion 
+                  for building comprehensive web solutions from concept to deployment. 
+                  As a full-stack developer, I am proficient in both the frontend and backend aspects of web development. 
+                  On the frontend, I create engaging and intuitive user interfaces, ensuring a seamless user experience.
+                  On the backend,I design robust server-side solutions, handle databases, and implement APIs that power the applications.
+                </p>
+            </div>
+        </div>
+     </section>
+
+     <!-- Skill  -->
+    <section id="skills">
+      <h1 class="text-center">MY SKILLS</h1>
+      <div class="container">
+          <div class="row p-lg-3 p-0 mb-lg-3 mb-0">
+           <div class="col-lg-6 col-12 pt-lg-0 pt-3">
+               <label>HTML</label>
+               <div class="progress" role="progressbar">
+                   <div class="progress-bar" style="width: 90%">90%</div>
+                 </div>
+           </div>
+           <div class="col-lg-6 col-12 pt-lg-0 pt-3">
+               <label>CSS</label>
+               <div class="progress" role="progressbar">
+                   <div class="progress-bar" style="width: 90%">90%</div>
+                 </div>
+           </div>
+          </div>
+
+          <div class="row p-lg-3 p-0 mb-lg-3 mb-0">
+           <div class="col-lg-6 col-12 pt-lg-0 pt-3">
+               <label>JAVASCRIPT</label>
+               <div class="progress" role="progressbar">
+                   <div class="progress-bar" style="width: 90%">90%</div>
+                 </div>
+           </div>
+           <div class="col-lg-6 col-12 pt-lg-0 pt-3">
+               <label>ANGULAR JS</label>
+               <div class="progress" role="progressbar">
+                   <div class="progress-bar" style="width: 70%">70%</div>
+                 </div>
+           </div>
+          </div>
+
+          <div class="row p-lg-3 p-0 mb-lg-3 mb-0">
+           <div class="col-lg-6 col-12 pt-lg-0 pt-3">
+               <label>SQL</label>
+               <div class="progress" role="progressbar">
+                   <div class="progress-bar" style="width: 60%">60%</div>
+                 </div>
+           </div>
+           <div class="col-lg-6 col-12 pt-lg-0 pt-3">
+               <label>PYTHON</label>
+               <div class="progress" role="progressbar">
+                   <div class="progress-bar" style="width: 90%">90%</div>
+                 </div>
+           </div>
+          </div>
+      </div>
+ </section>
+
+
+    <!-- Contact -->
+    <section id="contact">
+      <div class="container">
+        <h1>Contact Us</h1>
+        <div class="col-lg-5 col-12">
+          <form action="https://formspree.io/f/xknloyed" method="POST">
+             <div class="mb-3">
+                 <label class="form-label">Username:</label>
+                 <input type="text" name="name" placeholder="Name" class="form-control">
+             </div>
+             <div class="mb-3">
+                 <label class="form-label">Email:</label>
+                 <input type="email" name="email" placeholder="E-mail" class="form-control">
+             </div>
+             <div class="mb-3">
+                 <label class="form-label">Phone No:</label>
+                 <input type="number" name="number" placeholder="Phone Number" class="form-control">
+             </div>
+             <div class="mb-3">
+                 <label class="form-label">Feedback:</label>
+                 <textarea class="form-control" name="message"></textarea>
+             </div>
+             <button class="btn btn-primary" value="send">Submit</button>
+          </form>
+         
+     </div>
+        </div>
+      </div>
+
+    </section>
+  
+
+    
+</body>
+</html>
